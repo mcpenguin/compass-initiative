@@ -1,3 +1,5 @@
 .navbar {
-    background-color: black !important;
+    background-color: white !important;
+    color: black;
+    border-bottom: 2px solid black;
 }

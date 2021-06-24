@@ -12,6 +12,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+import insta_logo from './insta_logo.png'
+
 // import stylesheet
 import './Home.css';
 
@@ -32,8 +34,16 @@ class MyNavbar extends Component {
     render() {
         return (
             // <div>
-                <Navbar expand="lg" variant="dark">
-                    <Navbar.Brand href="/" className="navbar-brand">The Arctic Blog</Navbar.Brand>
+                <Navbar expand="lg" variant="light">
+                    <Navbar.Brand href="/" className="navbar-brand">
+                        <img src={insta_logo} style={{
+                            width: 50,
+                            height: 50
+                        }}/>
+                    </Navbar.Brand>
+                    <Navbar.Brand href="/" className="navbar-brand">
+                        The Compass Initiative
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="my-navbar" />
                     <Navbar.Collapse>
                         <Nav id="my-navbar" className="ml-auto">
