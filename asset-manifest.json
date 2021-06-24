@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed367b14.chunk.css",
-    "main.js": "/static/js/main.37de4400.chunk.js",
-    "main.js.map": "/static/js/main.37de4400.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2fb1b743.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2fb1b743.js.map",
-    "static/css/2.7b1c032f.chunk.css": "/static/css/2.7b1c032f.chunk.css",
-    "static/js/2.4db16ba5.chunk.js": "/static/js/2.4db16ba5.chunk.js",
-    "static/js/2.4db16ba5.chunk.js.map": "/static/js/2.4db16ba5.chunk.js.map",
-    "static/js/3.942dc5f7.chunk.js": "/static/js/3.942dc5f7.chunk.js",
-    "static/js/3.942dc5f7.chunk.js.map": "/static/js/3.942dc5f7.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.7b1c032f.chunk.css.map": "/static/css/2.7b1c032f.chunk.css.map",
-    "static/css/main.ed367b14.chunk.css.map": "/static/css/main.ed367b14.chunk.css.map",
-    "static/js/2.4db16ba5.chunk.js.LICENSE.txt": "/static/js/2.4db16ba5.chunk.js.LICENSE.txt",
-    "static/media/insta_logo.b4313b73.png": "/static/media/insta_logo.b4313b73.png",
-    "static/media/Home.css": "/static/media/map-of-the-world.1448ff4b.jpg"
+    "main.css": "/compass-initiative/static/css/main.f6a177dd.chunk.css",
+    "main.js": "/compass-initiative/static/js/main.37de4400.chunk.js",
+    "main.js.map": "/compass-initiative/static/js/main.37de4400.chunk.js.map",
+    "runtime-main.js": "/compass-initiative/static/js/runtime-main.61224360.js",
+    "runtime-main.js.map": "/compass-initiative/static/js/runtime-main.61224360.js.map",
+    "static/css/2.7b1c032f.chunk.css": "/compass-initiative/static/css/2.7b1c032f.chunk.css",
+    "static/js/2.4db16ba5.chunk.js": "/compass-initiative/static/js/2.4db16ba5.chunk.js",
+    "static/js/2.4db16ba5.chunk.js.map": "/compass-initiative/static/js/2.4db16ba5.chunk.js.map",
+    "static/js/3.942dc5f7.chunk.js": "/compass-initiative/static/js/3.942dc5f7.chunk.js",
+    "static/js/3.942dc5f7.chunk.js.map": "/compass-initiative/static/js/3.942dc5f7.chunk.js.map",
+    "index.html": "/compass-initiative/index.html",
+    "static/css/2.7b1c032f.chunk.css.map": "/compass-initiative/static/css/2.7b1c032f.chunk.css.map",
+    "static/css/main.f6a177dd.chunk.css.map": "/compass-initiative/static/css/main.f6a177dd.chunk.css.map",
+    "static/js/2.4db16ba5.chunk.js.LICENSE.txt": "/compass-initiative/static/js/2.4db16ba5.chunk.js.LICENSE.txt",
+    "static/media/insta_logo.b4313b73.png": "/compass-initiative/static/media/insta_logo.b4313b73.png",
+    "static/media/Home.css": "/compass-initiative/static/media/map-of-the-world.1448ff4b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fb1b743.js",
+    "static/js/runtime-main.61224360.js",
     "static/css/2.7b1c032f.chunk.css",
     "static/js/2.4db16ba5.chunk.js",
-    "static/css/main.ed367b14.chunk.css",
+    "static/css/main.f6a177dd.chunk.css",
     "static/js/main.37de4400.chunk.js"
   ]
 }
