@@ -22,7 +22,7 @@ class NavbarLink extends Component {
         const str = `#${this.props.id}`;
         return (
             <Nav.Item>
-                <Nav.Link className="nav-item" href={str}>
+                <Nav.Link className="navbar-item" href={str}>
                     {this.props.title}
                 </Nav.Link>
             </Nav.Item>
@@ -35,22 +35,25 @@ class MyNavbar extends Component {
         return (
             // <div>
                 <Navbar expand="lg" variant="light">
-                    <Navbar.Brand href="/" className="navbar-brand">
+                    <Navbar.Brand href="/" className="navbar-brand logo">
                         <img src={insta_logo} style={{
                             width: 50,
                             height: 50
                         }}/>
                     </Navbar.Brand>
-                    <Navbar.Brand href="/" className="navbar-brand">
+                    <Navbar.Brand href="/" className="navbar-brand-text" style={{
+                        position: 'relative',
+                        left: "-5px",
+                        top: "2px",
+                        fontSize: "1.5rem"
+                    }}>
                         The Compass Initiative
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="my-navbar" />
                     <Navbar.Collapse>
                         <Nav id="my-navbar" className="ml-auto">
-                            <NavbarLink id="about-me" title="About Me" />
-                            <NavbarLink id="timeline" title="Timeline" />
-                            <NavbarLink id="notes" title="Notes" />
-                            <NavbarLink id="contact-me" title="Contact Me" />
+                            <NavbarLink id="about_us" title="About Us" />
+                            <NavbarLink id="modules" title="Modules" />
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -64,6 +67,20 @@ export default class Home extends Component {
         return (
             <>
                 <MyNavbar />
+                <Container fluid id="initial-section" style={{
+                    height: "400px",
+                    backgroundAttachment: "fixed",
+                    backgroundPosition: "center",
+                    padding: "10% 45px",
+                }}>
+                    <Row>
+                        <Col lg={5}>
+                            <p class="initial-section-text">
+                                Educating one child at a time
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
             </>
         );
     }

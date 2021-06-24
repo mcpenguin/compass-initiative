@@ -3,3 +3,19 @@
     color: black;
     border-bottom: 2px solid black;
 }
+
+.navbar-item {
+    font-size: 1.1rem;
+    padding: 0 15px !important;
+}
+
+#initial-section {
+    background-image: url("./map-of-the-world.jpg");
+}
+
+.initial-section-text {
+    background-color: #f5f5f5cc;
+    font-size: 3.2em;
+    padding: 10px 20px;
+    line-height: 130%;
+}
